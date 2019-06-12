@@ -13,6 +13,7 @@
 		B4A102BA22AC68F900C48C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A102B922AC68F900C48C5F /* Assets.xcassets */; };
 		B4A102BD22AC68F900C48C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A102BB22AC68F900C48C5F /* LaunchScreen.storyboard */; };
 		B4A102C822AC68F900C48C5F /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A102C722AC68F900C48C5F /* FoodTrackerTests.swift */; };
+		B4A102D322ADE02D00C48C5F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A102D222ADE02D00C48C5F /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B4A102C322AC68F900C48C5F /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A102C722AC68F900C48C5F /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		B4A102C922AC68F900C48C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A102D222ADE02D00C48C5F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B4A102B922AC68F900C48C5F /* Assets.xcassets */,
 				B4A102BB22AC68F900C48C5F /* LaunchScreen.storyboard */,
 				B4A102BE22AC68F900C48C5F /* Info.plist */,
+				B4A102D222ADE02D00C48C5F /* RatingControl.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A102B522AC68F800C48C5F /* ViewController.swift in Sources */,
+				B4A102D322ADE02D00C48C5F /* RatingControl.swift in Sources */,
 				B4A102B322AC68F800C48C5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
