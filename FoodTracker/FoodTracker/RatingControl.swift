@@ -31,7 +31,7 @@ import Foundation
         }
     }
     
-    //MARK: Initialization
+    // MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupButtons()
@@ -42,7 +42,7 @@ import Foundation
         setupButtons()
     }
     
-    //MARK: Button Action
+    // MARK: Button Action
     @objc func ratingButtonTapped(button: UIButton) {
         guard let index = ratingButtons.firstIndex(of: button) else {
             fatalError("The button, \(button), is not in the ratingButtons array: \(ratingButtons)")
@@ -60,7 +60,7 @@ import Foundation
         }
     }
     
-    //MARK: Private Methods
+    // MARK: Private Methods
     private func setupButtons() {
         // clear any existing button
         for button in ratingButtons {
